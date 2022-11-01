@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>采蓝制靛</title>
+    <style>
+        html,body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+        body>* {
+            box-sizing: border-box;
+            width: 640px;
+            height: 1200px;
+            margin: 0 auto;
+        }
+        body {
+            width: 100%;
+            height: 100%;
+            background-image: url("图片/背景2.gif");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .main {
+            width: 500px;
+            height: 506px;
+            position: absolute;
+            top:300px;
+            left:100px;
+        }
+        .ren {
+            width: 500px;
+            height: 506px;
+            background-image: url("图片/彩01.gif");
+            background-repeat: no-repeat;
+            background-size: contain; 
+            position: absolute;
+            top:0px;
+            left:0px;
+            z-index: 2;
+        }
+        .music {
+            position: fixed;
+            top:40px;
+            left: 530px;
+        }
+        .shua {
+            position: absolute;
+            bottom:-200px;
+            left:100px;
+        }
+        .text2 {
+            font-size: 40px;
+            position: absolute;
+            left: 42px;
+            top: 70px;
+            color: white;
+            font-family: 隶书;
+        }
+        .shua img {
+            width: 250px;
+            height: 200px;
+        }
+        .fan {
+            position: absolute;
+            left: 0px;
+            right: 0px;
+        }
+        .fan img {
+            width: 150px;
+            height: 150px;
+        }
+        .text1 {
+            font-size: 40px;
+            position: absolute;
+            left: 35px;
+            top: 50px;
+            color: white;
+            font-family: 隶书;
+        }
+    </style>
+</head>
+<body> 
+    <div class="fan">
+        <a href="#"><div class="text1">返回</div></a>
+        <img src="图片/按钮刷.gif">
+    </div>
+    <div class="music"><img src="图片/开.gif" width="60"></div>
+    <div class="main">
+        <a href="#"><div class="ren"></div></a>
+        <div class="shua">
+            <div class="text2">采蓝制靛</div>
+            <img src="图片/按钮刷.gif">
+        </div>
+    </div>
+</body>
+</html>
